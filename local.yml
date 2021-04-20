@@ -1,7 +1,5 @@
 - hosts: localhost
-  connection: local
   become: true
-
   trasks:
   - name: Install htop
     apt:
