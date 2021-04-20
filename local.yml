@@ -1,5 +1,5 @@
 - hosts: localhost
-  conneciton: local
+  connection: local
   become: true
 
   trasks:
