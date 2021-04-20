@@ -1,0 +1,8 @@
+- hosts: localhost
+  conneciton: local
+  become: true
+
+  trasks:
+  - name: Install htop
+    apt:
+      name: htop
